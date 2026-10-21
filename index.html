@@ -536,12 +536,13 @@
   const DEFAULT_SHEET_TAB = "";   // để trống = dùng tab đầu tiên (hoặc tab theo gid trong link)
 
   /* ===== TỰ CHỈNH HIỆU ỨNG TẠI ĐÂY ===== */
-  const SWAY_PX  = 16;     // thanh kim lắc qua lại mỗi bên bao nhiêu px khi đang xoay
-  const SWAY_MS  = 1300;   // chu kỳ lắc (ms): 1300 = 1,3 giây cho một vòng trái-phải
+  const SWAY_PX  = 50;     // thanh kim lắc qua lại mỗi bên bao nhiêu px khi đang xoay
+  const SWAY_MS  = 4000;   // chu kỳ lắc (ms): 1300 = 1,3 giây cho một vòng trái-phải
   const SPIN_MS  = 15400;  // tổng thời gian thẻ chạy (ms)
-  const HOLD_MS  = 500;    // khoảng dừng ngắn (ms) giữa lúc thẻ dừng và lúc kim bắt đầu trượt ở đoạn kịch tính cuối
+  const HOLD_MS  = 1;    // khoảng dừng ngắn (ms) giữa lúc thẻ dừng và lúc kim bắt đầu trượt ở đoạn kịch tính cuối
   const INSIDE_PX = 14;    // kim chỉ nhích vào bên trong ô trúng bấy nhiêu px (tính từ mép ô) rồi dừng, KHÔNG đi tới tâm ô
-  const GLIDE_MS = 2400;   // thời gian kim trượt chậm sang ô bên cạnh ở cuối vòng (ms)
+  const GLIDE_MS = 2000;   // thời gian kim trượt chậm sang ô bên cạnh ở cuối vòng (ms)
+
 
   /* ========= State ========= */
   let boardMsg='Đang tải dữ liệu từ Google Sheet...';
